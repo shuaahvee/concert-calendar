@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "concert-calendar"
+version = "0.1.0"
+description = ""
+authors = ["shuaahvee <avishua.stein@brooklyndata.co>"]
+readme = "README.md"
+packages = [{include = "concert_calendar"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
